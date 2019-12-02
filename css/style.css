@@ -34,6 +34,10 @@ p{
   position: relative;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .normal_weight{
   font-weight: normal;
 }
@@ -205,6 +209,7 @@ header {
     height: 500px;
     background-image: url("../img/HelbizBanner.jpg");
     background-size: cover;
+    background-position: left;
   }
 
   .iphone-picture{
@@ -227,4 +232,17 @@ header {
   }
   .centered-title h4, p{
     font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 768px) {
+
+  .container_banner{
+    background-position: 15%;
+    height: 500px;
+  }
+
+  .iphone-picture{
+    width: 70%;
+  }
+
   }
