@@ -13,6 +13,10 @@ a{
   text-decoration: none;
 }
 
+p{
+  color: grey;
+}
+
 .link{
   display: block;
   font-size: 1.8em;
@@ -24,6 +28,14 @@ a{
 
 .bottom_25 {
   margin-bottom: 25px;
+}
+
+.relative{
+  position: relative;
+}
+
+.normal_weight{
+  font-weight: normal;
 }
 
 .container_1000 {
@@ -178,7 +190,6 @@ header {
 }
 .bike-container h2{
   font-size: 2.3em;
-  font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -187,3 +198,33 @@ header {
     margin: 80px 0;
   }
 }
+
+/* Sezione How does Helbiz work */
+
+  .container_banner{
+    height: 500px;
+    background-image: url("../img/HelbizBanner.jpg");
+    background-size: cover;
+  }
+
+  .iphone-picture{
+    width: 100%;
+    margin-top: -80%;
+  }
+
+  .container-250{
+    height: 250px;
+  }
+
+  .centered-title{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+  }
+  .centered-title h2{
+    font-size: 3.5em;
+  }
+  .centered-title h4, p{
+    font-size: 1.5em;
+  }
