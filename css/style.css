@@ -160,7 +160,8 @@ header {
 /* sezione modelli bike */
 
 .logo_bike{
-  width: 200px;
+  width: auto;
+  height: 30px;
 }
 
 .span_over:hover{
