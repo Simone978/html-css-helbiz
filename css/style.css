@@ -1,10 +1,29 @@
+/* regole generali */
+
 html {
   font-size: 10px;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
+}
+
+a{
+  text-decoration: none;
+}
+
+.link{
+  display: block;
+  font-size: 1.8em;
+  color: #187DCD;
+}
+.link:after{
+  content: " >";
+}
+
+.bottom_25 {
+  margin-bottom: 25px;
 }
 
 .container_1000 {
@@ -135,5 +154,35 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+}
+
+/* sezione modelli bike */
+
+.logo_bike{
+  width: 200px;
+}
+
+.span_over:hover{
+  text-decoration-line: underline;
+}
+
+.bike{
+  height: 350px;
+}
+
+.bike-container{
+  text-align: center;
+  margin: 150px 0;
+}
+.bike-container h2{
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bike-container{
+    margin: 80px 0;
   }
 }
