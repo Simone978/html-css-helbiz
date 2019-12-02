@@ -212,34 +212,34 @@ header {
 
 /* Sezione How does Helbiz work */
 
-  .container_banner{
-    height: 500px;
-    background-image: url("../img/HelbizBanner.jpg");
-    background-size: cover;
-    background-position: left;
-  }
+.container_banner{
+  height: 500px;
+  background-image: url("../img/HelbizBanner.jpg");
+  background-size: cover;
+  background-position: left;
+}
 
-  .iphone-picture{
-    width: 100%;
-    margin-top: -80%;
-  }
+.iphone-picture{
+  width: 100%;
+  margin-top: -80%;
+}
 
-  .container-250{
-    height: 250px;
-  }
+.container-250{
+  height: 250px;
+}
 
-  .centered-title{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 40px;
-  }
-  .centered-title h2{
-    font-size: 3.5em;
-  }
-  .centered-title h4, p{
-    font-size: 1.5em;
-  }
+.centered-title{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+.centered-title h2{
+  font-size: 3.5em;
+}
+.centered-title h4, p{
+  font-size: 1.5em;
+}
 
   @media screen and (max-width: 768px) {
 
@@ -256,24 +256,24 @@ header {
 
   /* sezione jumbo body page */
 
-  .jumbo .jumbo_body_page{
-    position: absolute;
-    left: 60%;
-    transform: translateY(-50%);
-    width: 30%;
-    text-align: center;
-  }
-  .jumbo .jumbo_body_page h2{
-    font-size: 4.5em;
-  }
-  .jumbo .jumbo_body_page p{
-    color: white;
-    font-size: 2em;
-    padding-bottom: 10px;
-  }
-  .jumbo.jumbo_banner{
-    background-image: url("../img/ScooterHelbiz-2400.jpg");
-  }
+.jumbo .jumbo_body_page{
+  position: absolute;
+  left: 60%;
+  transform: translateY(-50%);
+  width: 30%;
+  text-align: center;
+}
+.jumbo .jumbo_body_page h2{
+  font-size: 4.5em;
+}
+.jumbo .jumbo_body_page p{
+  color: white;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.jumbo.jumbo_banner{
+  background-image: url("../img/ScooterHelbiz-2400.jpg");
+}
 
   @media screen and (max-width: 768px) {
 
